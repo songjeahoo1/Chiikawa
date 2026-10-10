@@ -1,0 +1,11 @@
+{
+  "users": [],
+  "format": {
+    "userId": "browser-generated-uuid",
+    "id": "login-id",
+    "nickname": "display-name",
+    "passwordHash": "PBKDF2-SHA256 hash",
+    "salt": "unique-random-salt",
+    "iterations": 160000
+  }
+}

@@ -1,0 +1,13 @@
+.site-brand-logo{display:inline-block;width:clamp(40px,7vw,68px);height:clamp(40px,7vw,68px);object-fit:contain;vertical-align:middle;margin:0 .35em .12em 0;border-radius:0!important}
+.character-grade-badge{display:inline-flex;align-items:center;width:max-content;max-width:100%;margin:.45rem 0;padding:.28rem .62rem;border-radius:999px;background:#fff0d2;color:#66513b;font-size:.72rem;font-weight:800;letter-spacing:.01em}
+.grade-h{background:#302a38;color:#fff0a8}.grade-sss{background:#fff0c7;color:#805a18}.grade-ss{background:#e8e0ff;color:#55428a}.grade-s{background:#e0f2dc;color:#3d7043}.grade-a{background:#e2f1fa;color:#3b6681}.grade-b{background:#f2e8df;color:#725b4c}.grade-c{background:#f8e4e9;color:#8b5262}
+.site-notice-toast{position:fixed;z-index:10020;left:50%;bottom:24px;transform:translate(-50%,12px);opacity:0;pointer-events:none;background:#514a46;color:#fff;padding:12px 18px;border-radius:14px;box-shadow:0 8px 28px #392b2029;transition:opacity .2s,transform .2s;font-weight:700;text-align:center;max-width:calc(100vw - 32px)}
+.site-notice-toast.visible{opacity:1;transform:translate(-50%,0)}
+.admin-panel-modal{position:fixed;inset:0;z-index:10030;display:grid;place-items:center;padding:20px;background:#211c1b73;backdrop-filter:blur(4px)}
+.admin-panel-modal section{position:relative;width:min(440px,100%);padding:30px;border-radius:24px;background:#fffdf9;color:#514a46;box-shadow:0 20px 60px #25170f30}
+.admin-panel-modal h2{margin:.2rem 0 .6rem}.admin-panel-modal p{line-height:1.65}.admin-panel-modal .eyebrow{color:#aa7c73;font-size:.7rem;font-weight:900;letter-spacing:.16em}.admin-stat{display:flex;justify-content:space-between;padding:14px 0;border-top:1px solid #eee6dc}.admin-note{font-size:.8rem;color:#89817c}.admin-close{position:absolute;right:14px;top:12px;border:0;background:transparent;font-size:1.6rem;cursor:pointer;color:#514a46}
+@media(prefers-reduced-motion:reduce){.site-notice-toast{transition:none}}
+.site-brand-logo{border-radius:18px!important}
+.site-logo-mark{display:inline-grid;place-items:center;overflow:hidden}
+.site-logo-mark .site-brand-logo{width:100%;height:100%;margin:0;border-radius:18px!important}
+.user-json-export{width:100%;padding:12px 16px;border:0;border-radius:12px;background:#514a46;color:white;font:inherit;font-weight:750;cursor:pointer}

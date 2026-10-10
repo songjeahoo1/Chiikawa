@@ -1,0 +1,4 @@
+/* Character artwork is already transparent: show the complete uncropped image. */
+.result-avatar{border-radius:0!important;overflow:visible!important;background:transparent!important;box-shadow:none!important}
+img.result-image,img.top-avatar,img.row-avatar,img.guide-icon{border-radius:0!important;object-fit:contain!important;background:transparent!important}
+.result-image{display:block}
